@@ -120,7 +120,10 @@ section{
 }
 
 .bg-orange{
-    background: var(--orange);
+    background: rgb(194,113,9);
+    background: linear-gradient(0deg, rgba(194,113,9,1) 0%, rgba(252,153,24,1) 35%, rgba(228,162,77,1) 100%);
+    
+    
 }
 
 .border-orange{
@@ -128,10 +131,12 @@ section{
 }
 
 .bg-blue{
-    background: var(--blue);
+    background: rgb(10,5,107);
+background: linear-gradient(0deg, rgba(10,5,107,1) 0%, rgba(53,88,154,1) 35%, rgba(113,156,236,1) 100%);
 }
 .bg-red{
-    background: var(--red);
+    background: rgb(183,49,8);
+background: linear-gradient(0deg, rgba(183,49,8,1) 0%, rgba(241,74,22,1) 35%, rgba(234,132,100,1) 100%); 
 }
 
 .content{
